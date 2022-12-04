@@ -1,3 +1,7 @@
+---
+title: "Styled-Component"
+---
+
 [styled-components doc](https://styled-components.com/docs)
 
 #### Basics
@@ -45,6 +49,7 @@
   > It is important to define your styled components outside of the render method, otherwise it will be recreated on every single render pass. Defining a styled component within the render method will thwart caching and drastically slow down rendering speed, and should be avoided.
 - 使用 `stylis` 预处理器，支持类 scss 语法
 - [Attaching additional props](https://styled-components.com/docs/basics#attaching-additional-props)
+
   - attrs 中可使用函数返回结果 + 动态 props
 
     ```js
@@ -97,6 +102,7 @@
   - 当 styled-components 定义的样式属性与全局冲突时，由于 styled componens class 会被插入至 DOM 节点末端所以会占有较高的优先级
   - 避免与第三方样式冲突：外层设置命名空间
 - Tagged Template Literals
+
   - Tagged Template Literals in ES6
 
     ```js
@@ -118,4 +124,5 @@
       text-align: center;
     `
     ```
+
 - [Referring to other components](https://styled-components.com/docs/advanced#referring-to-other-components)
