@@ -1,8 +1,10 @@
 ---
 title: "React"
+tags:
+- tech
 ---
 
-### Hooks
+## Hooks
 - [Introducing Hooks](https://reactjs.org/docs/hooks-intro.html)
 - [puxiao / react-hook-tutorial](https://github.com/puxiao/react-hook-tutorial)
 - [Youtube - Codevolution](https://www.youtube.com/playlist?list=PLC3y8-rFHvwisvxhZ135pogtX7_Oe3Q3A)
@@ -30,7 +32,7 @@ title: "React"
 	`setState(prev => { ...prev, attr: newVal })`
 #### useReducer
 - useState is built using useReducer
--  ![[Pasted image 20221031230017.png]]
+-  ![react-useStatevsuseReducer.png](/content/notes/images/react-useStatevsuseReducer.png)
 #### useCallback
 - React.memo() 确保组件只在相关 props 或 state 变化时重渲染
 	```jsx

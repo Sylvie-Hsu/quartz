@@ -1,10 +1,12 @@
 ---
 title: "Styled-Component"
+tags:
+- frontend
 ---
 
 [styled-components doc](https://styled-components.com/docs)
 
-#### Basics
+## Basics
 - styled-component  = styled React component
 	>It removes the mapping between components and styles. This means that when you're defining your styles, you're actually creating a normal React component, that has your styles attached to it.
 - styled.div VS style.section
@@ -71,7 +73,7 @@ title: "Styled-Component"
 		```
 	- attrs 可被 override，越精准优先级越高
 
-#### Advanced
+## Advanced
 - Theming
 	- 可使用 Props 传参或函数，实现主题色变化或 revert
 	- 外层组件可使用 `withTheme` `useContext` `useTheme` 等方式获取 theme 信息
